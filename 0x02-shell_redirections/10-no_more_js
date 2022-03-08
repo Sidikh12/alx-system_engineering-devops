@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(find . -type f -name '*.js')
+find . -maxdepth 1 -type f -name '*.js' -delete
